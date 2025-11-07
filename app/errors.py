@@ -1,9 +1,9 @@
 class VaccineError(Exception):
-    """Parent class vor vaccine exception"""
+    """Parent class for vaccine exception"""
 
 
 class NotVaccinatedError(VaccineError):
-    """Custom exception if visitor not vacinated"""
+    """Custom exception if visitor not vaccinated"""
     def __str__(self) -> str:
         return "Visitor not vaccinated!!!!"
 

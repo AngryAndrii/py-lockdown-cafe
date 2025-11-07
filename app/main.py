@@ -15,5 +15,4 @@ def go_to_cafe(friends: list[dict], cafe: Cafe) -> str:
             count_of_masks += 1
     if count_of_masks:
         return f"Friends should buy {count_of_masks} masks"
-    if not count_of_masks:
-        return f"Friends can go to {cafe.name}"
+    return f"Friends can go to {cafe.name}"
